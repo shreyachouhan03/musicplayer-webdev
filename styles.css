@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.music-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.music-track {
+    width: 150px;
+    text-align: center;
+}
+
+.music-track img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.player-controls {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    margin-top: 20px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#progress {
+    height: 100%;
+    background-color: #007bff; /* Blue progress bar color */
+    border-radius: 5px;
+}
